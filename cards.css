@@ -1,0 +1,309 @@
+body {
+    margin: 0;
+    background-color: #112;
+}
+
+
+h1 {
+    color: white;
+    text-decoration: underline solid white;
+    font-size: 300%;
+    letter-spacing: 3px;
+    box-shadow: 3px 3px 3px black;
+    width: 20rem;
+    background-color: #112;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+}
+
+.cards  {
+    background-color: #223;
+    position: absolute;
+    border: white solid 4px;
+    height: 50rem;
+    width: 70rem;
+    padding: 2rem;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30rem;
+}
+
+
+/* Cards (backgrounds and sorting)*/
+.card1 {
+    background-image: linear-gradient(to bottom right, aqua, greenyellow);
+    width: 25rem;
+    height: 10rem;
+    border: black solid 3px;
+    box-shadow: 3px 3px 3px black;
+    border-radius: 5px;
+    margin: 25px;
+}
+.card2 {
+    background-image: linear-gradient(to right, dimgray, rgb(128, 128, 128));
+    width: 25rem;
+    height: 10rem;
+    border: black solid 3px;
+    box-shadow: 3px 3px 3px black;
+    border-radius: 5px;
+    margin: 25px;
+}
+.card3 {
+    background-image: linear-gradient(to bottom, darkred, dodgerblue);
+    width: 25rem;
+    height: 10rem;
+    border: black solid 3px;
+    box-shadow: 3px 3px 3px black;
+    border-radius: 5px;
+    margin: 25px;
+}
+
+
+/* Debit 1 display */
+.card1title {
+    padding: 2px;
+    font-size: 150%;
+    font-weight: bold;
+    margin-top: 5px;
+}
+.card1info {
+    letter-spacing: 5px;
+    font-size: 150%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    font-weight: bold;
+}
+
+
+
+/* Debit 2 display */
+.card2title {
+    padding: 2px;
+    font-size: 150%;
+    font-weight: bold;
+    margin-top: 5px;
+}
+.card2info {
+    letter-spacing: 5px;
+    font-size: 150%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    font-weight: bold;
+}
+
+
+
+/* CC display */
+.cctitle {
+    padding: 2px;
+    font-size: 150%;
+    font-weight: bold;
+    margin-top: 5px;
+}
+.ccinfo {
+    letter-spacing: 5px;
+    font-size: 150%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    font-weight: bold;
+}
+
+
+
+/* Card Activate Directory */
+.cardactivate {
+    color: white;
+    font-size: 125%;
+    letter-spacing: 3px;
+    box-shadow: 6px 6px 6px black;
+    width: 25rem;
+    background-color: #112;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+    border: solid white 2px;
+}
+.cact {
+    color:white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+    transition: transform 0.5s ease-in-out;
+}
+.cact:hover,
+.cact:focus,
+.cact:active {
+    color: antiquewhite;
+}
+
+
+
+
+.rightelements {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 45rem;
+    padding: 2rem;
+    margin-top: -45rem;
+}
+
+
+
+/* New Card Directory */
+.newcard {
+    background-color: #112;
+    border: 2px solid white;
+    color: white;
+    font-size: 150%;
+    font-weight: bold;
+    padding: 5px;
+    height: 10rem;
+    width: 20rem;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    margin-top: 1rem;
+}
+.nclink {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.5s ease-in-out;
+}
+.nclink:hover,
+.nclink:focus,
+.nclink:active {
+    color: antiquewhite;
+    transform: scale(1.25);
+    transition-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+.ncparagraph {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* Loan Directory */
+.loan {
+    background-color: #112;
+    border: 2px solid white;
+    color: white;
+    font-size: 150%;
+    font-weight: bold;
+    padding: 5px;
+    height: 10rem;
+    width: 20rem;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    margin-top: 1rem;
+}
+.loanlink {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    padding: 5px;
+    transition: transform 0.5s ease-in-out;
+}
+.loanlink:hover,
+.loanlink:focus,
+.loanlink:active {
+    color: antiquewhite;
+    transform: scale(1.25);
+    transition-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+.loanparagraph {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Dispute Directory */
+.dispute {
+    background-color: #112;
+    border: 2px solid white;
+    color: white;
+    font-size: 150%;
+    font-weight: bold;
+    padding: 5px;
+    height: 10rem;
+    width: 20rem;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    margin-top: 1rem;
+}
+.disputelink {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10px;
+    padding: 5px;
+    transition: transform 0.5s ease-in-out;
+}
+.disputelink:hover,
+.disputelink:focus,
+.disputelink:active {
+    color:antiquewhite;
+    transform: scale(1.25);
+    transition-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+.disputeparagraph {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.logout {
+    position: absolute;
+    margin-top: -5%;
+    margin-left: 19%;
+    height: 3rem;
+    width: 7rem;
+    border: solid white 2px;
+    border-radius: 10px;
+    background-color: #112  ;
+    color: white;
+    font-weight: bold;
+    padding: 0.5rem;
+    transition: transform 0.5s ease-in-out;
+}
+.logout:hover {
+    transform: scale(1.25);
+    transition-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
